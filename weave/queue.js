@@ -18,7 +18,7 @@ class Queue {
   }
 
   peek() {
-    if (this.data.length === 0) return null;
+
     return this.data[this.data.length - 1];
   }
 }
